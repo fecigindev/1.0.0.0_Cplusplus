@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     void;
-    char];
+    char;
     int;
     float;
     double;
