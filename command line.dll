@@ -1,0 +1,38 @@
+> gcc hello.c
+// Compile and link source file hello.c into executable a.exe
+
+> gcc -o hello.exe hello.c
+  // Compile and link source file hello.c into executable hello.exe
+> hello
+  // Execute hello.exe under CMD shell
+$ ./hello
+  // Execute hello.exe under Bash or Bourne shell, specifying the current path (./)
+
+> g++ -o hello.exe hello.cpp
+   // Compile and link source hello.cpp into executable hello.exe
+> hello
+   // Execute under CMD shell
+$ ./hello
+   // Execute under Bash or Bourne shell, specifying the current path (./)
+
+More GCC Compiler Options
+A few commonly-used GCC compiler options are:
+
+$ g++ -Wall -g -o Hello.exe Hello.cpp
+-o: specifies the output executable filename.
+-Wall: prints "all" warning messages.
+-g: generates additional symbolic debuggging information for use with gdb debugger.
+
+// Compile-only with -c option
+> g++ -c -Wall -g Hello.cpp
+// Link object file(s) into an executable
+> g++ -g -o Hello.exe Hello.o
+
+Compile and Link Multiple Source Files
+Suppose that your program has two source files: file1.cpp, file2.cpp. You could compile all of them in a single command:
+> g++ -o myprog.exe file1.cpp file2.cpp
+
+> g++ -c file1.cpp
+> g++ -c file2.cpp
+> g++ -o myprog.exe file1.o file2.o
+
