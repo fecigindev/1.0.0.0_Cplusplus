@@ -1,22 +1,22 @@
 > gcc hello.c
-// Compile and link source file hello.c into executable a.exe
+  // Compile dan link file sumber hello.c eksekusi ke a.exe
 
 > gcc -o hello.exe hello.c
-  // Compile and link source file hello.c into executable hello.exe
+  // Compile dan link file sumber hello.c ke dalam executable hello.exe
 > hello
-  // Execute hello.exe under CMD shell
+  // Jalankan hello.exe di bawah shell CMD
 $ ./hello
-  // Execute hello.exe under Bash or Bourne shell, specifying the current path (./)
+  // Jalankan hello.exe di bawah Bash atau Bourne shell, menentukan jalur saat ini (./)
 
 > g++ -o hello.exe hello.cpp
-   // Compile and link source hello.cpp into executable hello.exe
+   // Kompilasi dan link sumber hello.cpp ke dalam executable hello.exe
 > hello
-   // Execute under CMD shell
+   // Jalankan di bawah shell CMD
 $ ./hello
-   // Execute under Bash or Bourne shell, specifying the current path (./)
+   // Jalankan di bawah shell Bash atau Bourne, tentukan jalur saat ini (./)
 
-More GCC Compiler Options
-A few commonly-used GCC compiler options are:
+Pilihan Kompilator GCC lainnya
+Beberapa pilihan kompiler GCC yang umum digunakan adalah:
 
 $ g++ -Wall -g -o Hello.exe Hello.cpp
 -o: specifies the output executable filename.
